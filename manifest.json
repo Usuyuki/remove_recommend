@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Remove Recommender",
+    "version": "1.0.0",
+    "description": "YouTubeトップページのあなたへのおすすめを消すChrome拡張です",
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "css": ["style.css"]
+      }
+    ]
+  }
